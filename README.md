@@ -4,7 +4,7 @@ We'll take the blank 'hello world' cloud App and use it to get the temperature f
 
 ### Temperature API
 
-/weather/temperature/:city/:state [/weather/temperature/:city/:state]
+### /weather/temperature/:city/:state [/weather/temperature/:city/:state]
 
 Temperature endpoint
 ## /weather/temperature/:city/:state [GET]
