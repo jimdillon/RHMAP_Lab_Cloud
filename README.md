@@ -64,6 +64,8 @@ npm i
 ```
 grunt serve
 ```
+* Check that all is good by typing the following into your browser.
+http://127.0.0.1:8001/weather/temperature/Richmond/VA
 
 ### Temperature API
 
