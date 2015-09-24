@@ -89,6 +89,11 @@ var weatherServiceGUID = process.env.WEATHER_SERVICE_MBAAS_GUID
   , path = require('path')
   , route = module.exports = new express.Router();
 ```
+* Don't forget to add the WEATHER_SERVICE_MBAAS_GUID to the Gruntfile.js in the env.local section
+```
+WEATHER_SERVICE_MBAAS_GUID: 'Your MBaaS GUID AKA Service ID on the Details page',
+```
+
 * Now, lets make our function to call the MBaaS
 
 ```Javascript
