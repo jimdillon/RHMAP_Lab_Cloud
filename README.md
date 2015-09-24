@@ -64,3 +64,17 @@ npm i
 ```
 grunt serve
 ```
+
+### Temperature API
+
+### /weather/temperature/:city/:state [/weather/temperature/:city/:state]
+
+Temperature endpoint
+## /weather/temperature/:city/:state [GET]
+
++ Request (application/json)
+    + Body
+            {}
++ Response 200 (application/json)
+    + Body
+            {}
