@@ -3,8 +3,10 @@ var mbaasApi = require('fh-mbaas-api')
 , express = require('express')
 , mbaasExpress = mbaasApi.mbaasExpress()
 , log = require('fhlog')
-, app = express();
+, app = express()
+, cors = require('cors');
 
+app.use(cors());
 
 // Note: the order which we add middleware to Express here is important!
 app.use('/sys', mbaasExpress.sys([]));
