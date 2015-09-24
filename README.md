@@ -1,25 +1,9 @@
-# FeedHenry Hello World MBaaS Server
+# Red Hat Mobile Lab Cloud App
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+We'll take the blank 'hello world' cloud App and use it to get the temperature for the passed in city and state.
 
-# Group Hello World API
+# Temperature API
 
-# hello [/hello]
+# GET temperature [/weather/temperature/:city/:state]
 
-'Hello world' endpoint.
-
-## hello [POST] 
-
-'Hello world' endpoint.
-
-+ Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
-
-+ Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
+Temperature endpoint

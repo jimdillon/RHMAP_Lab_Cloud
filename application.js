@@ -2,7 +2,7 @@
 var mbaasApi = require('fh-mbaas-api')
 , express = require('express')
 , mbaasExpress = mbaasApi.mbaasExpress()
-, log = require('fhlog')
+, log = require('fhlog').get('Express')
 , app = express()
 , cors = require('cors');
 
