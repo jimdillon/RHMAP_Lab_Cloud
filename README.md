@@ -10,8 +10,6 @@ Temperature endpoint
 ## /weather/temperature/:city/:state [GET]
 
 + Request (application/json)
-    + Body
-            {}
 
 + Response 200 (application/json)
     + Body
