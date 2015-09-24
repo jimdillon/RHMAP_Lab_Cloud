@@ -2,20 +2,7 @@
 
 We'll take the blank 'hello world' cloud App and use it to get the temperature for the passed in city and state.
 
-### Temperature API
 
-### /weather/temperature/:city/:state [/weather/temperature/:city/:state]
-
-Temperature endpoint
-## /weather/temperature/:city/:state [GET]
-
-+ Request (application/json)
-    + Body
-            {}
-+ Response 200 (application/json)
-    + Body
-            {}
-# Group weather
 
 ### Start with the default Hello World cloud App.
 * Swap the /hello route for a /weather route.
