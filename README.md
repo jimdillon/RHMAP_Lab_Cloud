@@ -9,5 +9,9 @@ We'll take the blank 'hello world' cloud App and use it to get the temperature f
 Temperature endpoint
 
 + Request (application/json)
+    + Body
+            {}
 
 + Response 200 (application/json)
+    + Body
+            {}
