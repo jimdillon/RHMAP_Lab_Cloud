@@ -67,6 +67,11 @@ grunt serve
 * Check that all is good by typing the following into your browser.
 http://127.0.0.1:8001/weather/temperature/Richmond/VA
 
+### Now we'll create our WeatherService and come back later to alter our Cloud App
+to utilize the new MBaaS.
+
+
+
 ### Temperature API
 
 ### /weather/temperature/:city/:state [/weather/temperature/:city/:state]
