@@ -5,7 +5,9 @@ We'll take the blank 'hello world' cloud App and use it to get the temperature f
 
 
 ### Start with the default Hello World cloud App.
+
 * Swap the /hello route for a /weather route.
+
 ### We'll tell Express to send requests to /weather to our index.js file in lib.
 (If no file is specified for the folder, node defaults to index.js).
 
