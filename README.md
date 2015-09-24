@@ -73,5 +73,6 @@ function doGetTemp(req, res) {
 npm i
 ```
 * Start the cloud app
-``` grunt serve
+```
+grunt serve
 ```
