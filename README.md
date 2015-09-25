@@ -11,7 +11,7 @@ We'll take the blank 'hello world' cloud App and use it to get the temperature f
 ### We'll tell Express to send requests to /weather to our index.js file in lib.
 (If no file is specified for the folder, node defaults to index.js).
 
-To do this we'll change this
+To do this we'll change application.js from this
 ```Javascript
 app.use('/hello', require('./lib/hello.js')());
 ```
