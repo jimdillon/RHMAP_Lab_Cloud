@@ -96,6 +96,13 @@ var weatherServiceGUID = process.env.WEATHER_SERVICE_MBAAS_GUID
 ```
 WEATHER_SERVICE_MBAAS_GUID: 'Your MBaaS GUID AKA Service ID on the Details page',
 ```
+* We also need to tell the Cloud App to find our MBaaS running locally at 127.0.0.1:8002, this will go in the Gruntfile.js too.  Place it in the serviceMap variable
+```
+var serviceMap = {
+            'wt6tpsyhol7rpw2lfxertrxg': 'http://127.0.0.1:8002',
+            'SERVICE_GUID_2': 'https://host-and-path-to-service'
+          };
+```
 
 * Now, lets make our function to call the MBaaS
 
@@ -132,6 +139,10 @@ route.get('/temperature/:city/:state', doGetTemp);
 To
 ```Javascript
 route.get('/temperature/:city/:state', doGetTempFromService);
+```
+* Let's start up the Cloud App with grunt
+```
+grunt serve:local
 ```
 
 * Our Cloud App should now be utilizing our MBaaS to connect to the geocoding and weather services to provide the current temperature for the city and state input.
