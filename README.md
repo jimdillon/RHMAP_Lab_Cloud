@@ -92,6 +92,7 @@ var weatherServiceGUID = process.env.WEATHER_SERVICE_MBAAS_GUID
   , route = module.exports = new express.Router();
 ```
 * Don't forget to add the WEATHER_SERVICE_MBAAS_GUID to the Gruntfile.js in the env.local section
+![alt tag](https://raw.github.com/jimdillon/RH-MAP-Tech-Talk-Lab/master/weatherserviceguid.jpg)
 ```
 WEATHER_SERVICE_MBAAS_GUID: 'Your MBaaS GUID AKA Service ID on the Details page',
 ```
@@ -136,16 +137,6 @@ route.get('/temperature/:city/:state', doGetTempFromService);
 * Our Cloud App should now be utilizing our MBaaS to connect to the geocoding and weather services to provide the current temperature for the city and state input.
 
 
-### Temperature API
-
-### /weather/temperature/:city/:state [/weather/temperature/:city/:state]
-
+### Weather API
 Temperature endpoint
 ## /weather/temperature/:city/:state [GET]
-
-+ Request (application/json)
-    + Body
-            {}
-+ Response 200 (application/json)
-    + Body
-            {}
