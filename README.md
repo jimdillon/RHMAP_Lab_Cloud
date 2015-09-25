@@ -140,7 +140,7 @@ To
 ```Javascript
 route.get('/temperature/:city/:state', doGetTempFromService);
 ```
-* Let's start up the Cloud App with grunt
+* Let's start up the Cloud App with grunt _(if using linux you made need to run this with sudo)_
 ```
 grunt serve:local
 ```
