@@ -15,7 +15,7 @@ To do this we'll change application.js from this
 ```Javascript
 app.use('/hello', require('./lib/hello.js')());
 ```
-To this
+To this _(make sure you remove the extra parenthesis after require('./lib'))_
 ```Javascript
 app.use('/weather', require('./lib'));
 ```
@@ -104,7 +104,7 @@ var serviceMap = {
           };
 ```
 
-* Now, lets make our function to call the MBaaS
+* Now, lets make our function to call the MBaaS _(in index.js)_
 
 ```Javascript
 function doGetTempFromService(req, res) {
@@ -140,7 +140,7 @@ To
 ```Javascript
 route.get('/temperature/:city/:state', doGetTempFromService);
 ```
-* Let's start up the Cloud App with grunt
+* Let's start up the Cloud App with grunt _(if using linux you made need to run this with sudo)_
 ```
 grunt serve:local
 ```
