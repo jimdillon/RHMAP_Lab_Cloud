@@ -58,6 +58,16 @@ function doGetTemp(req, res) {
 ```
 "fhlog": "^0.12.1"
 ```
+* The MBaaS API has been updated so we'll update our package.json file to reflect this
+
+Change
+```
+"fh-mbaas-api": "~4.11.0",
+```
+To
+```
+"fh-mbaas-api": "~5.0.0",
+```
 * Install the node modules
 ```
 npm i
